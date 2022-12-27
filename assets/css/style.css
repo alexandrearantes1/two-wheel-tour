@@ -1,5 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo+Play:wght@300&family=Cambay:ital@0;1&display=swap');
+
+
 * {
    margin: 0;
    padding: 0;
    border: 0;
+   box-sizing:border-box;
+}
+
+body {
+   font-family: Cambay, sans-serif;
+   color: #3a3a3a;
+}
+
+header {
+   margin: 0;
+   padding: 0;
+   height: 150px;
+   position: relative;
+}
+
+#logo {
+   font-family: 'Cairo', sans-serif;
+   font-size: 200%;
+   width:250px;
+   text-align: center;
+   line-height:110%;
+   padding:20px;
+   position:absolute;
+   top:50%;
+   transform: translate(0, -50%);
+}
+
+#logo a {
+   text-decoration: none;
+   color: #3a3a3a;
+}
+
+#menu {
+   position:absolute;
+   right: 0;
+   top:50%;
+   transform: translate(0, -50%);
+}
+
+#menu ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 5px 0px;
+}
+
+#menu li {
+   display: inline;
+   padding: 5px 20px;
+}
+
+#menu a {
+   text-decoration: none;
+   color: #3a3a3a;
+   margin:0;
+   
+   font-size:130%;
+}
+
+#menu a:hover {
+   color:#d34646;
+   border-bottom: 2px solid  #d34646;
+}
+
+hr {
+   border-top:2px solid #3a3a3a;
 }
