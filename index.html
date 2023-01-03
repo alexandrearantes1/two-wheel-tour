@@ -11,17 +11,21 @@
 </head>
 <body>
    <header>
-      <div id="logo"><a href="index.html">Two Wheels Tours</a></div>
-      <nav id="menu">
-         <ul>
-            <li><a href="tours.html"><span class="icon"><i class="fa-solid fa-route"></i></span>Motorcycle Tours</a></li>
-            <li><a href="explore.html"><span class="icon"><i class="fa-solid fa-road"></i></span>Explore Ireland</a></li>
-            <li><a href="dealers.html"><span class="icon"><i class="fa-solid fa-wrench"></i></span>Dealers &amp; Garages</a></li>
-            <li><a href="about.html"><span class="icon"><i class="fa-solid fa-user-group"></i></span>About Us</a></li>
+      <nav>
+         <div id="logo"><a href="index.html">Two Wheels Tours</a></div>
+         <ul class="menu">
+            <li><a href="tours.html">Motorcycle Tours</a></li>
+            <li><a href="explore.html">Explore Ireland</a></li>
+            <li><a href="dealers.html">Dealers &amp; Garages</a></li>
+            <li><a href="about.html">About Us</a></li>
          </ul>
+         <div id="hamb" onclick="toggleNav()">
+            <div class="hamb-bar"></div>
+            <div class="hamb-bar"></div>
+            <div class="hamb-bar"></div>
+         </div>
       </nav>
    </header>
-   <hr />
    <div id="hero"></div>
    <hr />
    <section>
@@ -58,5 +62,6 @@
       </ul>
    </footer>
    <script src="https://kit.fontawesome.com/98206addba.js" crossorigin="anonymous"></script>
+   <script src="assets/js/menu-toggler.js" crossorigin="anonymous"></script>
 </body>
 </html>
