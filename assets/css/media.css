@@ -1,12 +1,16 @@
 /* Medium size screens */
 @media (max-width: 1100px) {
-   .card {
+   .home-card {
       width: 40%;
       margin-bottom:5%;
    }
 
-   .card h2, .card .card-icon {
+   .home-card h2, .card .card-icon {
       font-size:200%;
+   }
+
+   .card {
+      width:40%;
    }
 
    footer {
@@ -21,6 +25,7 @@
    }
 
    .menu {
+      z-index: 200;
       display:none;
       height:fit-content;
       min-height: fit-content;
@@ -28,15 +33,8 @@
       position:absolute;
       top:85px;
       right:0px;
-      background:#1D3557DD;
       justify-content: space-evenly;
       align-items: flex-start;
-
-      /* Glass effect from https://css.glass */
-      background: rgba(255, 255, 255, 0.315);
-      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
-      backdrop-filter: blur(5px);
-      border: 1px solid rgba(255, 255, 255, 0.3);
    }
 
    .menu li {
@@ -51,18 +49,6 @@
       height: 60px;
       min-height:60px;
       color: #0a462c;
-   }
-
-   .menu a:hover {
-      color: white;
-   }
-
-   .menu a:before {
-      background: #f07f3800;
-   }
-
-   .menu a:hover:before {
-      background: #f07f38CC;
    }
    
    .show-menu {
@@ -84,15 +70,23 @@
 
 /* Mobile devices */
 @media (max-width: 768px) {
-   .card {
+   .home-card {
       width: 90%;
    }
 
-   .card h2, .card .card-icon {
+   .home-card h2, .card .card-icon {
       font-size:250%;
    }
 
-   .content {
+   .home-cards {
       width: 100%;
+   }
+
+   .bg {
+      padding:0;
+      background:none;
+   }
+   .card {
+      width: 90%;
    }
 }

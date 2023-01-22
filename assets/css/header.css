@@ -2,7 +2,10 @@
 
 :root {
    --primary-color: #138453;
-   --secondary-color: #e07430;
+   --secondary-color: #fd863b ;/*#ee792f;*/
+   --tertiary-color: teal;
+   --card-text-color: #282828;
+   --card-border-radius: 4px;
 }
 
 * {
@@ -12,16 +15,30 @@
    box-sizing: border-box;
 }
 
+.glass {
+   /* Glass effect from https://css.glass */
+   background: rgba(255, 255, 255, 0.715);
+   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+   backdrop-filter: blur(5px);
+}
+
+.shadow {
+   /* Layered Box Shadow efffect created using https://shadows.brumm.af/  */
+   box-shadow:
+   0.9px 1px 2.2px rgba(0, 0, 0, 0.02),
+   2.1px 2.5px 5.3px rgba(0, 0, 0, 0.028),
+   4px 4.6px 10px rgba(0, 0, 0, 0.035),
+   7.1px 8.3px 17.9px rgba(0, 0, 0, 0.042),
+   13.4px 15.5px 33.4px rgba(0, 0, 0, 0.05),
+   32px 37px 80px rgba(0, 0, 0, 0.07);
+}
+
 a {
    text-decoration: none;
 }
 
-a:hover {
-   color: var(--secondary-color);
-}
-
 body {
-   font-family: 'Rajdhani', sans-serif;
+   font-family: 'Cambay', sans-serif;
    font-weight: 300;
    color:var(--primary-color);
    background-color: white;
@@ -29,6 +46,7 @@ body {
 }
 
 header {
+   font-family: 'Rajdhani', sans-serif;
    display: flex;
    justify-content: space-between;
    align-items:flex-start;
@@ -45,13 +63,13 @@ nav {
 
 #logo {
    font-size: 40px;
-   width: 300px;
+   width: fit-content;
    display: flex;
    align-items: center;
    justify-content:center;
    position: relative;
    line-height: 0.9em;
-   padding: 10px 0;
+   padding: 20px 50px;
 }
 
 #logo div {
@@ -62,6 +80,7 @@ nav {
    justify-content: center;
    font-size: 40px;
    line-height: 0.8em;
+   
 }
 
 #logo a {
@@ -74,13 +93,13 @@ nav {
 
 /* Navbar links */
 .menu {
+   font-weight: 400;
    display:flex; 
    justify-content: space-between;
    align-items: center;
    list-style: none;
    margin: 0;
-   padding: 0;
-   
+   padding: 0; 
 }
 
 .menu li {
@@ -98,13 +117,21 @@ nav {
    align-items: center; 
    font-size: 20px;
    color: var(--primary-color);
-   min-height:84px;
+   min-height: 106px;
    padding: 0 15px;
-   transition: 0.3s cubic-bezier(.72,.02,.19,.96);
+   transition: background-color 0.3s cubic-bezier(.72,.02,.19,.96);
 }
 
-.menu a:hover, menu a:focus    {
+.menu a:hover, 
+.menu a:focus, 
+.card a:hover, 
+.card a:focus  {
    color: white;
+}
+
+.card a:hover, 
+.card a:focus {
+   background-color: var(--secondary-color);
 }
 
 .menu a:before {
@@ -115,16 +142,29 @@ nav {
    bottom: 0;
    right: 0;
    z-index: -1;
-   background-color: #e0743000;
-   transform-origin: left center;
-   
-   /* transform: scaleX(0); */
-   transition: 0.2s cubic-bezier(.72,.02,.19,.96);
+   background-color: #ffffff00;
+
+   transition: background-color 0.2s cubic-bezier(.72,.02,.19,.96);
 }
 
-.menu a:hover:before {
-   background-color: var(--secondary-color);
+.menu li:nth-child(1).active-link a,
+.menu li:nth-child(1) a:hover:before {
+   background-color: var(--primary-color);
+   color:white;
 }
+
+.menu li:nth-child(2).active-link a,
+.menu li:nth-child(2) a:hover:before {
+   background-color: var(--secondary-color);
+   color:white;
+}
+
+.menu li:nth-child(3).active-link a,
+.menu li:nth-child(3) a:hover:before {
+   background-color: var(--tertiary-color);
+   color:white;
+}
+
 
 /* Hamburger Button */
 #hamb {

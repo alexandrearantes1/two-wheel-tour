@@ -1,0 +1,110 @@
+#hero {
+   background: url('../images/patrick-OxkrT5_1nvw-unsplash.jpg') no-repeat center center;
+   background-size: cover;
+   width: 100%;
+   height: 400px;
+}
+
+.home-cards {
+   padding: 50px 0;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   align-items: center;
+   width: 100vw;
+   position: relative;
+   background-color:var(--tertiary-color);
+}
+
+#tours-card .card-image {
+   background: url('../images/tours-card.png') no-repeat center center;
+   background-size: cover;
+}
+
+#rent-card .card-image {
+   background: url('../images/rent-card.png') no-repeat center center;
+   background-size: cover;
+}
+
+#contact-card .card-image {
+   background: url('../images/about-card.png') no-repeat center center;
+   background-size: cover;
+}
+
+.home-card {
+   width: 30%;
+   max-height: 267px;
+   max-width: 500px;
+   display: inline-block;
+   position: relative;
+   overflow: hidden;
+   border-radius: 16px;
+
+   backdrop-filter: blur(10px);
+   color: var(--primary-color);
+   background-color:white;  
+   cursor: pointer;
+   font-family: 'Rajdhani', sans-serif;
+   
+   transition: 0.5s cubic-bezier(.89,.04,.33,.99);
+   transition-delay: 0.2s;
+}
+
+.home-card .card-image {
+   width: 100%;
+   height: 267px;
+   overflow: hidden;
+   border-radius:16px;
+   
+   transition: 0.5s cubic-bezier(.89,.04,.33,.99);
+   transition-delay: 0s;
+}
+
+.home-card .card-icon {
+   position: absolute;
+   color: #ffffff00;
+   top: 50%;
+   left: 50%;
+   transform: scale(0) translate(-50%, -300%);
+   transition: 0.5s cubic-bezier(.89,.04,.33,.99);
+}
+
+.home-card h2 {
+   font-weight:300;
+   width: max-content;
+   min-width:max-content;
+   position: absolute;
+   color: #3a3a3a00;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%) scale(0);
+   
+   transition: 0.5s cubic-bezier(.89,.04,.33,.99);
+   transition-delay: 0s;
+}
+
+.home-card:hover {
+   transform: scale(1);
+   transition-delay: 0s;
+}
+
+.home-card:hover .card-image {
+   transform: scale(1.8) translate(-30px,30px);
+   filter: blur(10px) brightness(70%);
+   transition-delay: 0s;
+}
+
+.home-card:hover .card-icon {
+   color: #ffffffEE;
+   transform: scale(1) translate(-50%, -250%);
+   transition-delay: 0.1s; 
+}
+
+.home-card:hover a {
+   color:white;
+}
+
+.home-card:hover h2 {
+   color:#ffffffcc;
+   transform: translate(-50%, -50%) scale(1); 
+}

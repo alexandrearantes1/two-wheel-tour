@@ -1,6 +1,7 @@
 footer {
    height: 200px;
-   margin-top: 50px;
+   margin-top: 20px;
+   padding-top: 20px;
    display: flex;
    flex-direction: column;
    justify-content: flex-start;
@@ -78,3 +79,4 @@ footer ul li:nth-child(3) a:before {
 footer ul li:nth-child(4) a:before {
    background:#dd4b39;
 }
+
