@@ -137,6 +137,8 @@ h1 {
    position: absolute;
    left: 5%;
    padding: 30px;
+   border-bottom-right-radius: var(--card-border-radius);
+   border-bottom-left-radius: var(--card-border-radius);
 }
 
 .contact-form label {
