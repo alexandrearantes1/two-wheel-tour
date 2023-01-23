@@ -42,7 +42,7 @@ body {
    font-weight: 300;
    color:var(--primary-color);
    background-color: white;
-   min-width: 360px;
+   min-width: 320px;
 }
 
 header {
