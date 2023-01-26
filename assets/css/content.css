@@ -89,18 +89,20 @@ h1 {
    margin: 0;
    list-style:inside;
    padding:0 20px;
-   font-size: 1em;
+   font-size: 1.2em;
+   font-family: 'Rajdhani', sans-serif;
+   font-weight: 500;
 }
 
 .cards span {
    display: inline-block;
    width:25px;
-   /* color: black; */
 }
 
-.cards li {
-   font-size: 0.9em;
+.cards ul li {
+   font-size: 0.8em;
    padding-top: 0.5em;
+   font-family: 'Cambay', sans-serif;
 }
 
 .cards li i {
@@ -111,6 +113,10 @@ h1 {
 .cards .card-footer {
    display: flex;
    justify-content: space-evenly;
+}
+
+.tours-content .card ul {
+   list-style-type: none;
 }
 
 .cards a {
