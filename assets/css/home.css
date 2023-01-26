@@ -1,5 +1,5 @@
 #hero {
-   background: url('../images/patrick-OxkrT5_1nvw-unsplash.jpg') no-repeat center center;
+   background: url('../images/patrick-oxkrt5_1nvw-unsplash.webp') no-repeat center center;
    background-size: cover;
    width: 100%;
    height: 400px;
@@ -17,17 +17,17 @@
 }
 
 #tours-card .card-image {
-   background: url('../images/elevandos-medya-XdBGW723UdE-unsplash.jpg') no-repeat center center;
+   background: url('../images/elevandos-medya-XdBGW723UdE-unsplash.webp') no-repeat center center;
    background-size: cover;
 }
 
 #rent-card .card-image {
-   background: url('../images/cornermonkey-Jh7RohFbjzc-unsplash.jpg') no-repeat center center;
+   background: url('../images/cornermonkey-Jh7RohFbjzc-unsplash.webp') no-repeat center center;
    background-size: cover;
 }
 
 #contact-card .card-image {
-   background: url('../images/20210602_134126_865.jpg') no-repeat center center;
+   background: url('../images/anh-tr-n-pFq73TQlpvo-unsplash.webp') no-repeat center center;
    background-size: cover;
 }
 
