@@ -4,6 +4,7 @@
    --primary-color: #138453;
    --secondary-color: #fd863b ;/*#ee792f;*/
    --tertiary-color: teal;
+   --home-cards-bg-color: #3e3e3e;
    --card-text-color: #282828;
    --card-border-radius: 4px;
 }
@@ -15,15 +16,14 @@
    box-sizing: border-box;
 }
 
+/* From https://css.glass */
 .glass {
-   /* Glass effect from https://css.glass */
-   background: rgba(255, 255, 255, 0.715);
-   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+   background: rgba(255, 255, 255, 0.4);
    backdrop-filter: blur(5px);
 }
 
+/* Layered Box Shadow efffect created using https://shadows.brumm.af/  */
 .shadow {
-   /* Layered Box Shadow efffect created using https://shadows.brumm.af/  */
    box-shadow:
    0.9px 1px 2.2px rgba(0, 0, 0, 0.02),
    2.1px 2.5px 5.3px rgba(0, 0, 0, 0.028),
@@ -40,7 +40,7 @@ a {
 body {
    font-family: 'Cambay', sans-serif;
    font-weight: 300;
-   color:var(--primary-color);
+   color: var(--primary-color);
    background-color: white;
    min-width: 320px;
 }
@@ -49,7 +49,6 @@ header {
    font-family: 'Rajdhani', sans-serif;
    display: flex;
    justify-content: space-between;
-   align-items:flex-start;
 }
 
 nav {
@@ -58,7 +57,6 @@ nav {
    height: 100%;
    display: flex;
    justify-content: space-between;
-   align-items:flex-start;
 }
 
 #logo {
@@ -66,21 +64,20 @@ nav {
    width: fit-content;
    display: flex;
    align-items: center;
-   justify-content:center;
+   justify-content: center;
    position: relative;
    line-height: 0.9em;
    padding: 20px 50px;
 }
 
 #logo div {
-   width:100%;
+   width: 100%;
    display: flex;
    flex-direction: column;
    align-items: center;
    justify-content: center;
    font-size: 40px;
    line-height: 0.8em;
-   
 }
 
 #logo a {
@@ -103,9 +100,7 @@ nav {
 }
 
 .menu li {
-   height:100%;
-   margin:0;
-   padding:0;
+   height: 100%;
    display: flex;
    align-items: center;
 }
@@ -119,6 +114,7 @@ nav {
    color: var(--primary-color);
    min-height: 106px;
    padding: 0 15px;
+
    transition: background-color 0.3s cubic-bezier(.72,.02,.19,.96);
 }
 
@@ -150,33 +146,32 @@ nav {
 .menu li:nth-child(1).active-link a,
 .menu li:nth-child(1) a:hover:before {
    background-color: var(--primary-color);
-   color:white;
+   color: white;
 }
 
 .menu li:nth-child(2).active-link a,
 .menu li:nth-child(2) a:hover:before {
    background-color: var(--secondary-color);
-   color:white;
+   color: white;
 }
 
 .menu li:nth-child(3).active-link a,
 .menu li:nth-child(3) a:hover:before {
    background-color: var(--tertiary-color);
-   color:white;
+   color: white;
 }
 
 /* Hamburger Button */
-
 #hamb {
-   position:absolute;
+   position: absolute;
    display: none;
    top: 50%;
    right: 10px;
    transform: translate(0, -50%);
    width: 50px;
    height: 40px;
-   border-radius:3px;
-   border:1px solid var(--primary-color);
+   border-radius: 3px;
+   border: 1px solid var(--primary-color);
 }
 
 .hamb-bar {
@@ -184,8 +179,9 @@ nav {
    height: 3px;
    border-radius: 4px;
    background-color: var(--primary-color);
-   transition: 0.3s cubic-bezier(.72,.02,.19,.96);
    transform-origin: center center;
+
+   transition: 0.3s cubic-bezier(.72,.02,.19,.96);
 }
 
 .close-hamb div:nth-child(1) {  

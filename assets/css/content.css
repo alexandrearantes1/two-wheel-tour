@@ -1,15 +1,15 @@
 .tours-content {
-   background-color:var(--primary-color);
+   background-color: var(--primary-color);
    border:1px solid transparent;
 }
 
 .rent-content {
-   background-color:var(--secondary-color);
+   background-color: var(--secondary-color);
    border:1px solid transparent;
 }
 
 .contact-content {
-   background-color:var(--tertiary-color);
+   background-color: var(--tertiary-color);
    border:1px solid transparent;
    position: relative;
 }
@@ -24,7 +24,7 @@
 
 h1 {
    width: 100%;
-   color: white; /*var(--primary-color);*/
+   color: white;
    font-family: 'Rajdhani', sans-serif;
    font-size: 2.5em;
    font-weight: 400;
@@ -42,11 +42,11 @@ h1 {
 .card {
    display: inline-block;
    width: 30%;
-   min-width:250px;
+   min-width: 250px;
    overflow: hidden;
    color: var(--card-text-color);
    background-color: white;
-   margin-bottom:30px;
+   margin-bottom: 30px;
    padding-bottom: 20px;
    border-radius: var(--card-border-radius);
 }
@@ -55,15 +55,15 @@ h1 {
    font-family: 'Rajdhani', sans-serif;
    font-weight: 500;
    font-size: 1.5em;
-   color: var(--primary-color); /*#4b4b4b;*/
+   color: var(--primary-color);
    padding: 10px 20px 0;
    text-align: center;
 }
 
 h3 { 
    margin: 0;
-   list-style:inside;
-   padding:0 20px;
+   list-style: inside;
+   padding: 0 20px;
    font-size: 1.2em;
    font-family: 'Rajdhani', sans-serif;
    font-weight: 500;
@@ -74,21 +74,15 @@ h4 {
    text-align: center;
    font-size: 1.4em;
    color: var(--primary-color);
-   margin:10px 0;
-}
- 
- .card-image {
-   margin:0;
-   padding:0;
+   margin: 10px 0;
 }
 
- .card-image img {
+
+.card-image img {
    width: 100%;
-   margin:0;
-   padding:0;
 }
 
- p {
+p {
    padding: 10px 20px;
    text-align: justify; 
 }
@@ -110,7 +104,7 @@ h4 {
 
 .cards li i {
    display: inline-block;
-   margin-right:5px;
+   margin-right: 5px;
 }
 
 .cards .card-footer {
@@ -128,7 +122,7 @@ h4 {
    font-family: 'Rajdhani', sans-serif;
    font-weight: 500;
    display: block;
-   width:40%;
+   width: 40%;
    padding: 10px 10px 5px;
    
    border: 1px solid #44444444;
@@ -142,11 +136,11 @@ h4 {
 .contact-form {
    margin: 0 5% 0 0;
    color: #fff;
-   background-color: rgba(0, 128, 128, 0.8);
+   background-color: rgba(0, 128, 128, 0.9);
    width: 400px;
    position: absolute;
    left: 5%;
-   top:90px;
+   top: 90px;
    padding: 20px;
    border-bottom-right-radius: var(--card-border-radius);
    border-bottom-left-radius: var(--card-border-radius);
@@ -171,19 +165,20 @@ h4 {
 }
 
 .submit-button {
+   cursor: pointer;
    border-radius: 2px;
-   padding: 10px 10px 10px 10px;
+   padding: 10px;
    text-align: center;
    font-size: 100%;
-   background-color: white;
    color: var(--tertiary-color);
+   background-color: white;
    display: block;
    float: right;
+
    transition: 0.2s cubic-bezier(.89,.04,.33,.99);
-   cursor: pointer;
 }
 
 .submit-button:hover {
-   background-color: var(--tertiary-color);
    color: white;
+   background-color: var(--tertiary-color);
 }

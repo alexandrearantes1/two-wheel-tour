@@ -1,1 +1,9 @@
-function toggleNav(){let l=document.querySelectorAll(".menu")[0],s=document.querySelectorAll("#hamb")[0];l.classList.toggle("show-menu"),l.classList.toggle("glass"),l.classList.toggle("shadow"),s.classList.toggle("close-hamb")}
+function toggleNav () {
+   const menu = document.querySelectorAll('.menu')[0];
+   const hamb = document.querySelectorAll('#hamb')[0];
+   
+   menu.classList.toggle('show-menu');
+   menu.classList.toggle('glass');
+   menu.classList.toggle('shadow');
+   hamb.classList.toggle('close-hamb');
+}
