@@ -143,7 +143,7 @@ h1 {
    width: 400px;
    position: absolute;
    left: 5%;
-   top:100px;
+   top:90px;
    padding: 20px;
    border-bottom-right-radius: var(--card-border-radius);
    border-bottom-left-radius: var(--card-border-radius);
