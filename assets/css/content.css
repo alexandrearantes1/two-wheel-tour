@@ -47,7 +47,7 @@ h1 {
    color: var(--card-text-color);
    background-color: white;
    margin-bottom:30px;
-   padding-bottom: 1.5%;
+   padding-bottom: 20px;
    border-radius: var(--card-border-radius);
 }
 
