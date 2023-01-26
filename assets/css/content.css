@@ -58,16 +58,24 @@ h1 {
    color: var(--primary-color); /*#4b4b4b;*/
    padding: 10px 20px 0;
    text-align: center;
- }
+}
 
- h3 {
+h3 { 
+   margin: 0;
+   list-style:inside;
+   padding:0 20px;
+   font-size: 1.2em;
+   font-family: 'Rajdhani', sans-serif;
+   font-weight: 500;
+}
+
+h4 {
    font-family: 'Rajdhani', sans-serif;
    text-align: center;
    font-size: 1.4em;
    color: var(--primary-color);
    margin:10px 0;
-   /* background-color: var(--primary-color); */
- }
+}
  
  .card-image {
    margin:0;
@@ -78,25 +86,20 @@ h1 {
    width: 100%;
    margin:0;
    padding:0;
- }
+}
 
  p {
    padding: 10px 20px;
    text-align: justify; 
- }
-
- .cards ul {
-   margin: 0;
-   list-style:inside;
-   padding:0 20px;
-   font-size: 1.2em;
-   font-family: 'Rajdhani', sans-serif;
-   font-weight: 500;
 }
 
 .cards span {
    display: inline-block;
    width:25px;
+}
+
+.cards ul {
+   margin:0 20px;
 }
 
 .cards ul li {
