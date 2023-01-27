@@ -18,17 +18,17 @@
 
 /* Home cards */
 #tours-card .card-image {
-   background: url('../images/elevandos-medya-xdbgw723ude-unsplash.webp') no-repeat center center;
+   background: url('../images/home-card-tours.webp') no-repeat center center;
    background-size: cover;
 }
 
 #rent-card .card-image {
-   background: url('../images/cornermonkey-jh7rohfbjzc-unsplash.webp') no-repeat center center;
+   background: url('../images/home-card-rent.webp') no-repeat center center;
    background-size: cover;
 }
 
 #contact-card .card-image {
-   background: url('../images/anh-tr-n-pfq73tqlpvo-unsplash.webp') no-repeat center center;
+   background: url('../images/home-card-contact.webp') no-repeat center center;
    background-size: cover;
 }
 
@@ -47,7 +47,7 @@
    cursor: pointer;
    font-family: 'Rajdhani', sans-serif;
    
-   transition: 0.5s cubic-bezier(.89,.04,.33,.99);
+   transition: 0.3s cubic-bezier(.89,.04,.33,.99);
    transition-delay: 0.2s;
 }
 
@@ -57,7 +57,7 @@
    overflow: hidden;
    border-radius: var(--card-border-radius);
    
-   transition: 0.5s cubic-bezier(.89,.04,.33,.99);
+   transition: 0.3s cubic-bezier(.89,.04,.33,.99);
    transition-delay: 0s;
 }
 
@@ -67,7 +67,7 @@
    top: 50%;
    left: 50%;
    transform: scale(0) translate(-50%, -300%);
-   transition: 0.5s cubic-bezier(.89,.04,.33,.99);
+   transition: 0.3s cubic-bezier(.89,.04,.33,.99);
 }
 
 .home-card h2 {
@@ -80,7 +80,7 @@
    left: 50%;
    transform: translate(-50%, -50%) scale(0);
    
-   transition: 0.5s cubic-bezier(.89,.04,.33,.99);
+   transition: 0.3s cubic-bezier(.89,.04,.33,.99);
    transition-delay: 0s;
 }
 

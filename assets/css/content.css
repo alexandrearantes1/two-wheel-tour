@@ -14,6 +14,10 @@
    position: relative;
 }
 
+.rent-content ul {
+   padding-left: 15px;
+}
+
 #contact-bg {
    background: url('../images/contact-bg.webp') no-repeat center right;
    background-size: cover;
@@ -62,21 +66,11 @@ h1 {
 
 h3 { 
    margin: 0;
-   list-style: inside;
    padding: 0 20px;
    font-size: 1.2em;
    font-family: 'Rajdhani', sans-serif;
    font-weight: 500;
 }
-
-h4 {
-   font-family: 'Rajdhani', sans-serif;
-   text-align: center;
-   font-size: 1.4em;
-   color: var(--primary-color);
-   margin: 10px 0;
-}
-
 
 .card-image img {
    width: 100%;
@@ -87,7 +81,7 @@ p {
    text-align: justify; 
 }
 
-.cards span {
+.cards li span {
    display: inline-block;
    width:25px;
 }
@@ -107,9 +101,36 @@ p {
    margin-right: 5px;
 }
 
-.cards .card-footer {
-   display: flex;
-   justify-content: space-evenly;
+.card h4 {
+   font-family: 'Rajdhani', sans-serif;
+   text-align: center;
+   font-size: 1.4em;
+   color: var(--primary-color);
+   margin: 10px 0;
+}
+
+.card h4:after {
+   content: '*'
+}
+
+.card-footer {
+   text-align: center;
+}
+
+.card-footer a {
+   margin: auto;
+}
+
+.card-footer span {
+   display: inline-block;
+   color: grey;
+   text-align: center;
+   font-size: 0.8em;
+   margin: 20px 10px 0;
+}
+
+.card-footer span:before {
+   content: '*';
 }
 
 .tours-content .card ul {
@@ -148,6 +169,15 @@ p {
 
 .contact-form label {
    display: block;
+}
+
+.contact-form select {
+   background-color: transparent;
+   border: 1px solid white;
+   color: white;
+   border-radius: var(--card-border-radius);
+   padding: 3px;
+   margin: 10px 0;
 }
 
 .text-input {
