@@ -14,8 +14,8 @@
    position: relative;
 }
 
-.contact-content #hero {
-   background: url('../images/img_20200919_105758.webp') no-repeat center right;
+#contact-bg {
+   background: url('../images/contact-bg.webp') no-repeat center right;
    background-size: cover;
    width: 100%;
    height: 400px;
