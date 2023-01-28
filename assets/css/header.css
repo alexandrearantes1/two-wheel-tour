@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Cambay:ital@0;1&family=Rajdhani:wght@300;400;500&display=swap');
 
+/* CSS variables */
 :root {
    --primary-color: #138453;
-   --secondary-color: #fd863b ;/*#ee792f;*/
-   --tertiary-color: teal;
+   --secondary-color: #fd863b;
    --home-cards-bg-color: #3e3e3e;
    --card-text-color: #282828;
    --card-border-radius: 4px;
@@ -59,6 +59,7 @@ nav {
    justify-content: space-between;
 }
 
+/* Logo styles */
 #logo {
    font-size: 40px;
    width: fit-content;

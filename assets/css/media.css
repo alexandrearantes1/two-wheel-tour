@@ -1,4 +1,4 @@
-/* footer on small screens */
+/* reduces green and orange stripes, expand white central stripe */
 @media (max-width: 1024px) {
    .flag-green, .flag-orange { 
       width:25%;
@@ -8,16 +8,6 @@
       width: 50%; 
    }
 }
-@media (max-width: 620px) { 
-   .flag-green, .flag-orange { 
-      width:0%;
-   }
-   
-   .flag-white { 
-      width: 100%; 
-   }
-}
-
 
 /* Small size screens */
 @media (max-width: 768px) {
@@ -106,5 +96,16 @@
 
    footer h2 {
       font-size: 1.4em;
+   }
+}
+
+/* Collapse flag colours to give space for social media links on small screens */
+@media (max-width: 620px) { 
+   .flag-green, .flag-orange { 
+      width:0%;
+   }
+   
+   .flag-white { 
+      width: 100%; 
    }
 }

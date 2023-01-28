@@ -1,9 +1,11 @@
+/* Hero image */
 #hero {
    background: url('../images/home-hero.webp') no-repeat center center;
    background-size: cover;
    width: 100%;
    height: 400px;
 }
+
 /* Home cards container */
 .home-cards {
    padding: 40px 0;
@@ -16,7 +18,7 @@
    background-color: var(--home-cards-bg-color);
 }
 
-/* Home cards */
+/* Home cards styles */
 #tours-card .card-image {
    background: url('../images/home-card-tours.webp') no-repeat center center;
    background-size: cover;
