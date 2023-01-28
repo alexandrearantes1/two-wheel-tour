@@ -1,3 +1,24 @@
+/* footer on small screens */
+@media (max-width: 1024px) {
+   .flag-green, .flag-orange { 
+      width:25%;
+   }
+   
+   .flag-white { 
+      width: 50%; 
+   }
+}
+@media (max-width: 620px) { 
+   .flag-green, .flag-orange { 
+      width:0%;
+   }
+   
+   .flag-white { 
+      width: 100%; 
+   }
+}
+
+
 /* Small size screens */
 @media (max-width: 768px) {
    #logo {
@@ -79,7 +100,8 @@
       top: 0;
       left: 0;
       width: 100%;
-      height: 360px;
+      height: 380px;
+      margin-bottom: 10px;
    }
 
    footer h2 {

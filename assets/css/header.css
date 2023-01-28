@@ -33,11 +33,11 @@
    32px 37px 80px rgba(0, 0, 0, 0.07);
 }
 
-a {
-   text-decoration: none;
-}
+a { text-decoration: none; }
 
-body {
+a:focus { outline: none; }
+
+body {   
    font-family: 'Cambay', sans-serif;
    font-weight: 300;
    color: var(--primary-color);
@@ -143,21 +143,13 @@ nav {
    transition: background-color 0.2s cubic-bezier(.72,.02,.19,.96);
 }
 
-.menu li:nth-child(1).active-link a,
-.menu li:nth-child(1) a:hover:before {
-   background-color: var(--primary-color);
-   color: white;
-}
-
-.menu li:nth-child(2).active-link a,
-.menu li:nth-child(2) a:hover:before {
+.menu li a:hover:before, .menu li a:focus:before {
    background-color: var(--secondary-color);
    color: white;
 }
 
-.menu li:nth-child(3).active-link a,
-.menu li:nth-child(3) a:hover:before {
-   background-color: var(--tertiary-color);
+.menu li.active-link a {
+   background-color: var(--primary-color);
    color: white;
 }
 
