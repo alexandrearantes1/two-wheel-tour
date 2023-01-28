@@ -128,7 +128,7 @@ Each page is divided into 3 main segments: header, content and footer. Each segm
 
 - A curious glitch seems to happen on home cards hover effect, where the width of the card slightly varies (flicker) during the transition. This issue was only observed on a HP 27W display monitor and only at certain viewport width sizes and certain positions of the browser window on the screen. 
 
-The issue does not occur on a MacBook Pro Retina Display or Google Pixel 6 Pro mobile phone. It was not possible to determine the exact cause of the issue and it remains unsolved as of 28/01/2023.
+  The issue does not occur on a MacBook Pro Retina Display or Google Pixel 6 Pro mobile phone. It was not possible to determine the exact cause of the issue and it remains unsolved as of 28/01/2023.
 
 ## Deployment
 
