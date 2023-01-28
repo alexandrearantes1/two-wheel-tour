@@ -8,7 +8,7 @@ Motorcycle rental services would be provided for people who cannot bring their o
 
 ## Project Goals
 
-The goal of this project is to deliver a fully implemented front-end website that inspires motorcyclists to purchase motorcycle tours and/or to rent motorcycles in the Republic of Ireland. 
+The goal of this project is to deliver a fully implemented and responsive front-end website that inspires motorcyclists to purchase motorcycle tours and/or to rent motorcycles in the Republic of Ireland. 
 
 The site was designed to be easy to navigate, find information and to provide the user an intuitive way of identifying which page they are in. Pictures were carefully selected to convey a sense of freedom, fun and to inspire people to learn more about the Republic of Ireland. 
 
