@@ -121,7 +121,7 @@ Each page is divided into 3 main segments: header, content and footer. Each segm
     
   - Landing page - Mobile Report:
   
-    ![Lighthouse page load analysis - desktop](https://alexandrearantes1.github.io/two-wheels-motorcycle-tours/assets/images/pngs/lighthouse-index-desktop.png)
+    ![Lighthouse page load analysis - desktop](https://alexandrearantes1.github.io/two-wheels-motorcycle-tours/assets/images/pngs/lighthouse-index-mobile.png)
 
 
 ### Unfixed Bugs
