@@ -59,7 +59,7 @@ Each page is divided into 3 main segments: header, content and footer. Each segm
   - This section will provide the user with information about each tour offered by the company and what is included and what is not.
   - Each card contains an image of one of the locations covered by that tour, a short intro text about the tour, a list of main attractions as well as the price of the tour and a link to the Contact Us page.
 
-![Motorcycle Tours](https://alexandrearantes1.github.io/two-wheels-motorcycle-tours/assets/images/pngs/tour-card.png)
+![Motorcycle Tours](https://alexandrearantes1.github.io/two-wheels-motorcycle-tours/assets/images/pngs/motorcycle-tours.png)
 
 - __Rent a Motorcycle__
 
@@ -67,7 +67,7 @@ Each page is divided into 3 main segments: header, content and footer. Each segm
   - Each card contains an image of the motorcycle, a short description and a list of features that the motorcycle offers. It also contains the price per day, a link to the Contact Us page and re-fuelling fees for each motorcycle in case they are not returned with a full tank.
   - This section will make it easier for the user to consider the full costs associated with the tours and help them decide if they would like to rent a motorcycle, or ride their own. 
   
-![Rent a Motorcycle](https://alexandrearantes1.github.io/two-wheels-motorcycle-tours/assets/images/pngs/rent-card.png)
+![Rent a Motorcycle](https://alexandrearantes1.github.io/two-wheels-motorcycle-tours/assets/images/pngs/rent-a-motorcycle.png)
 
 - __Contact Us__
 
