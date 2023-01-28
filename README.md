@@ -4,7 +4,7 @@ Two Wheels Motorcycle Tours is an imaginary company specialized in providing mul
 
 Motorcycle rental services would be provided for people who cannot bring their own motorcycle to Ireland or would like to experience riding a different motorcycle than their own.  
 
-![Responsive Mockup](https://alexandrearantes1.github.io/two-wheels-motorcycle-tours/assets/images/pngs/am-i-responsivel.png)
+![Responsive Mockup](https://alexandrearantes1.github.io/two-wheels-motorcycle-tours/assets/images/pngs/am-i-responsive.png)
 
 ## Project Goals
 
@@ -89,7 +89,7 @@ Each page is divided into 3 main segments: header, content and footer. Each segm
   - The nav bar will be fully displayed with the logo to the left, and 3 links side by side to the right. 
   - The cards on the home page will be displayed side by side. 
   - The footer will contain the colours of the Irish flag each taking 1/3 of the viewport. 
-    - The social media links will be displayed on the white, central stripe.
+  - The social media links will be displayed in the white central stripe.
 
 - On screens below or equal to 1024px wide:
   - The colours green and orange of the flag will take 25% of the page, and the central white stripe will take 50%, keeping more space for the social media links. 
@@ -112,6 +112,12 @@ Each page is divided into 3 main segments: header, content and footer. Each segm
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Falexandrearantes1.github.io%2Ftwo-wheels-motorcycle-tours%2Findex.html)
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Falexandrearantes1.github.io%2Ftwo-wheels-motorcycle-tours%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+- Lighthouse - Dev Tools
+  - No major issues reported on the Desktop version of the lighthouse report.
+    ![Lighthouse page load analysis - desktop](https://alexandrearantes1.github.io/two-wheels-motorcycle-tours/assets/images/pngs/lighthouse-index-desktop.png).
+  - Mobile performance was 75%, all other reports returned 100%.
+    ![Lighthouse page load analysis - desktop](https://alexandrearantes1.github.io/two-wheels-motorcycle-tours/assets/images/pngs/lighthouse-index-desktop.png).
+
 
 ### Unfixed Bugs
 
