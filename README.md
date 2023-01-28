@@ -151,3 +151,6 @@ The live link can be found here - https://alexandrearantes1.github.io/two-wheels
 
 - All photos used on the website were taken from [Unsplash](https://www.unsplash.com) with the exception of the Contact Us page, which is from my personal archive.
 
+## Acknowledgements
+
+- I would like to thank Vinicius Souza for his invaluable design insights and suggestions.
