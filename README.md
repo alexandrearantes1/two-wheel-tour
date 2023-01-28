@@ -39,7 +39,7 @@ Each page is divided into 3 main segments: header, content and footer. Each segm
 
   - The landing page includes a photograph that captures the feel of being out on the road, exploring and enjoying being in nature with a motorcycle. 
 
-![Landing Page](https://alexandrearantes1.github.io/two-wheels-motorcycle-tours/assets/images/home-hero.webp)
+![Landing Page](https://alexandrearantes1.github.io/two-wheels-motorcycle-tours/assets/images/pngs/home-hero.png)
 
 - __Navigation Cards__
 
