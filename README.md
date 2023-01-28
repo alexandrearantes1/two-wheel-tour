@@ -35,7 +35,7 @@ Each page is divided into 3 main segments: header, content and footer. Each segm
  
 ![Nav Bar](https://alexandrearantes1.github.io/two-wheels-motorcycle-tours/assets/images/pngs/nav-bar.png)
 
-- __The landing page image__
+- __The Landing Page Image__
 
   - The landing page includes a photograph that captures the feel of being out on the road, exploring and enjoying being in nature with a motorcycle. 
 
@@ -43,7 +43,10 @@ Each page is divided into 3 main segments: header, content and footer. Each segm
 
 - __Navigation Cards__
 
-  - Each of the navigation cards contains an image with a different type of motorcycle, adventure, naked and sportbike. This was an intentional choice, in order to highlight that people do not necessarily need an adventure our touring motorcycle to enjoy our motorcycle tours.
+  - Each of the navigation cards contains an image with a different type of motorcycle, adventure, naked and sportbike.
+  - When the user hovers the card, a quick animation that zooms into that image, blurs it out and reveals the name of the page that the card leads to. 
+  - The cards are responsive and will adapt to different screen sizes without losing readability or distorting the images. 
+  - They provide an alternative navigation to the navbar and convey the idea of movement and speed, commonly associated with motorcycles. 
 
 ![Home Cards](https://alexandrearantes1.github.io/two-wheels-motorcycle-tours/assets/images/pngs/home-cards.png)
 
