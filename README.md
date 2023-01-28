@@ -32,16 +32,16 @@ Each page is divided into 3 main segments: header, content and footer. Each segm
   - Featured on all three pages, the navigation bar is fully responsive. On the left hand side it contains links to the landing page (logo). On the right hand side, it contains links to the pages: Motorcycle Tours, Rent a Motorcycle and Contact Us. This allows for practical navigation without the need to rely on browser's navigation controls. 
   
   - Links on the right side of the navigation bar change their colour on mouse over to provide feedback to the user. When a link is clicked, it changes its colour to green in order to match the colour of the background of the segment below it, thus providing an additional way of the user to identify in which page they are.  
- 
-![Nav Bar](https://alexandrearantes1.github.io/two-wheels-motorcycle-tours/assets/images/pngs/nav-bar.png)
 
-![Nav Bar](https://alexandrearantes1.github.io/two-wheels-motorcycle-tours/assets/images/pngs/nav-bar-collapsed.png)
+  ![Nav Bar - Expanded](https://alexandrearantes1.github.io/two-wheels-motorcycle-tours/assets/images/pngs/nav-bar.png)
+
+  ![Nav Bar - Collapsed](https://alexandrearantes1.github.io/two-wheels-motorcycle-tours/assets/images/pngs/nav-bar-collapsed.png)
 
 - __The Landing Page Image__
 
   - The landing page includes a photograph that captures the feel of being out on the road, exploring and enjoying being in nature with a motorcycle. 
 
-![Landing Page](https://alexandrearantes1.github.io/two-wheels-motorcycle-tours/assets/images/pngs/home-hero.png)
+  ![Landing Page](https://alexandrearantes1.github.io/two-wheels-motorcycle-tours/assets/images/pngs/home-hero.png)
 
 - __Navigation Cards__
 
@@ -57,7 +57,7 @@ Each page is divided into 3 main segments: header, content and footer. Each segm
   - The footer section design was based on the Republic of Ireland's flag and includes links to the relevant social media sites for Two Wheels Motorcycle Tours. The links will open on a new tab to allow easy navigation for the user.
   - The footer is valuable to the user as it encourages them to keep connected via social media.
 
-![Footer](https://alexandrearantes1.github.io/two-wheels-motorcycle-tours/assets/images/pngs/footer.png)
+  ![Footer](https://alexandrearantes1.github.io/two-wheels-motorcycle-tours/assets/images/pngs/footer.png)
 
 - __Motorcycle Tours__
 
@@ -72,14 +72,14 @@ Each page is divided into 3 main segments: header, content and footer. Each segm
   - Each card contains an image of the motorcycle, a short description and a list of features that the motorcycle offers. It also contains the price per day, a link to the Contact Us page and re-fuelling fees for each motorcycle in case they are not returned with a full tank.
   - This section will make it easier for the user to consider the full costs associated with the tours and help them decide if they would like to rent a motorcycle, or ride their own. 
   
-![Rent a Motorcycle](https://alexandrearantes1.github.io/two-wheels-motorcycle-tours/assets/images/pngs/rent-a-motorcycle.png)
+  ![Rent a Motorcycle](https://alexandrearantes1.github.io/two-wheels-motorcycle-tours/assets/images/pngs/rent-a-motorcycle.png)
 
 - __Contact Us__
 
   - The The contact us page provides a contact form that will allow users to send a message. The user will be asked to specify if the message is regarding motorcycle tours, motorcycle rental, or other subject.
   - This section is valuable to the user as they will be able request more informations about tours, motorcycle rentals, make booking requests, or request any other information not yet included on the website.
 
-![Contact Us](https://alexandrearantes1.github.io/two-wheels-motorcycle-tours/assets/images/pngs/contact-us.png)
+  ![Contact Us](https://alexandrearantes1.github.io/two-wheels-motorcycle-tours/assets/images/pngs/contact-us.png)
 
 ### Features Left to Implement
 
