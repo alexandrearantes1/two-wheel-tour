@@ -110,14 +110,16 @@ Each page is divided into 3 main segments: header, content and footer. Each segm
 
 - HTML
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Falexandrearantes1.github.io%2Ftwo-wheels-motorcycle-tours%2Findex.html)
+
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Falexandrearantes1.github.io%2Ftwo-wheels-motorcycle-tours%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
 - Lighthouse - Dev Tools
-  - No major issues reported on the Desktop version of the lighthouse report.
+  - Landing page - Desktop Report:
   
     ![Lighthouse page load analysis - desktop](https://alexandrearantes1.github.io/two-wheels-motorcycle-tours/assets/images/pngs/lighthouse-index-desktop.png)
     
-  - Mobile performance was 75%, all other reports returned 100%.
+  - Landing page - Mobile Report:
   
     ![Lighthouse page load analysis - desktop](https://alexandrearantes1.github.io/two-wheels-motorcycle-tours/assets/images/pngs/lighthouse-index-desktop.png)
 
